@@ -45,11 +45,11 @@ Pod::Spec.new do |s|
   s.dependency 'Hue' # 颜色
   s.dependency 'SwiftyJSON' #Json解析
   s.dependency 'SnapKit' #界面布局
-  s.dependency 'JPush' #极光推送
   s.dependency 'ReachabilitySwift' #网络监听
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'DeviceKit'
   s.dependency 'SwiftDate'
   s.dependency 'CryptoSwift' #加密
+  
 end
