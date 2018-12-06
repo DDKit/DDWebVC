@@ -16,6 +16,11 @@ public class DDWebVC: UIViewController {
 //        object_setClass(vc, type(of: self))
         return DDWebVC()
     }
+    
+    public func HAHAH() {
+        
+    }
+    
 }
 
 /*

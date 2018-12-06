@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'DDWebVC/Classes/**/*'
   
   s.resource_bundles = {
-    'DDWebVC' => ['DDWebVC/Assets/dd_img.bundle/*.png']
+    'DDWebVC' => ['DDWebVC/Assets/*.bundle']
   }
   
   s.swift_version = '4.0'
