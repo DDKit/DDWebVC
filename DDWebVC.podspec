@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 根据自己的需求的制作的网页加载控制器, 方便自己维护
                        DESC
 
-  s.homepage         = 'https://github.com/DD/DDWebVC'
+  s.homepage         = 'https://github.com/DDKit/DDWebVC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DD' => 'duanchanghe@gmail.com' }
