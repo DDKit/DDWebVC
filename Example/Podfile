@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDWebVC_Example' do
+  pod 'DDWebVC', :path => '../'
+
+  target 'DDWebVC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

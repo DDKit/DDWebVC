@@ -1,0 +1,22 @@
+{
+  "name": "DDWebVC",
+  "version": "0.1.0",
+  "summary": "A short description of DDWebVC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DD/DDWebVC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DD": "duanchanghe@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DD/DDWebVC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DDWebVC/Classes/**/*"
+}

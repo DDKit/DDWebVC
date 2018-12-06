@@ -1,0 +1,6 @@
+framework module DDWebVC {
+  umbrella header "DDWebVC-umbrella.h"
+
+  export *
+  module * { export * }
+}
