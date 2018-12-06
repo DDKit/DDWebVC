@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDWebVC'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DDWebVC.'
+  s.version          = '1.0.0'
+  s.summary          = '自定义的网页控制器 DDWebVC.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,9 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  
-TODO: Add long description of the s.dependency here.
-
+根据自己的需求的制作的网页加载控制器, 方便自己维护
                        DESC
 
   s.homepage         = 'https://github.com/DD/DDWebVC'
@@ -35,12 +33,13 @@ TODO: Add long description of the s.dependency here.
   s.source_files = 'DDWebVC/Classes/**/*'
   
   s.resource_bundles = {
-    'DDWebVC' => ['DDWebVC/Assets/*.png']
+    'DDWebVC' => ['DDWebVC/Assets/dd_img.bundle/*.png']
   }
   
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.swift_version = '4.0'
-  s.frameworks = 'UIKit', 'MapKit'
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
   s.dependency 'Alamofire'  #网络请求
   s.dependency 'SVProgressHUD' #加载动画
   s.dependency 'Hue' # 颜色
@@ -53,6 +52,4 @@ TODO: Add long description of the s.dependency here.
   s.dependency 'DeviceKit'
   s.dependency 'SwiftDate'
   s.dependency 'CryptoSwift' #加密
-  
-  
 end

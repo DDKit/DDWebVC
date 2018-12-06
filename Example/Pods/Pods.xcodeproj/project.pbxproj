@@ -11,8 +11,12 @@
 		043CC1CEB78F08881D7B33433FD8D757 /* DDWebVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AEE09F8CDE7232B10FA199912CAB5A /* DDWebVC-dummy.m */; };
 		129B2FAA64D08EB101CBB06DA185FD0A /* Pods-DDWebVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC7FE4828C9F39458AA4FF4D81D1C62 /* Pods-DDWebVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16E95D7C3F19E6B3C2BB33860FF0F0EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		289DECAF21B9176A00BDE303 /* dd_img.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 289DECAE21B9176A00BDE303 /* dd_img.bundle */; };
+		289DF16521B92E3600BDE303 /* DDFlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DF16421B92E3600BDE303 /* DDFlashButton.swift */; };
+		289DF16921B92E8E00BDE303 /* DDWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DF16621B92E8D00BDE303 /* DDWebVC.swift */; };
+		289DF16A21B92E8E00BDE303 /* DDWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DF16721B92E8D00BDE303 /* DDWebView.swift */; };
+		289DF16B21B92E8E00BDE303 /* DDWebVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289DF16821B92E8D00BDE303 /* DDWebVC.storyboard */; };
 		61E3F614655C5583112978B8C89C6BDD /* Pods-DDWebVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C9D31CB52912AC82D2E580E42F53A /* Pods-DDWebVC_Example-dummy.m */; };
-		87AA4D762C6C16F0540661A060F9DF89 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184A8F052308571B94A7972DFDD07BB /* ReplaceMe.swift */; };
 		8D2E234406FE0E56B80A10382EBE33AF /* Pods-DDWebVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E29B2FBC3CD2DA1EEAD75CE5FBEC4D4 /* Pods-DDWebVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		988BF8F43CB91E5B82940AB6F1A5E13F /* Pods-DDWebVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BA1DEDA8682A38AB69281389B319B5 /* Pods-DDWebVC_Tests-dummy.m */; };
 		AF7BA6808B25163601EA35071C239D16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -45,6 +49,11 @@
 		1FEB05A7673A41AD5B78C4FB200FAE34 /* Pods-DDWebVC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDWebVC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20D872E4D2FA868BC0A56628D9918CD6 /* DDWebVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDWebVC.modulemap; sourceTree = "<group>"; };
 		212BFB5495AB6B8CBA0C4B33730B29F5 /* Pods-DDWebVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDWebVC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		289DECAE21B9176A00BDE303 /* dd_img.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = dd_img.bundle; sourceTree = "<group>"; };
+		289DF16421B92E3600BDE303 /* DDFlashButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDFlashButton.swift; sourceTree = "<group>"; };
+		289DF16621B92E8D00BDE303 /* DDWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDWebVC.swift; sourceTree = "<group>"; };
+		289DF16721B92E8D00BDE303 /* DDWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDWebView.swift; sourceTree = "<group>"; };
+		289DF16821B92E8D00BDE303 /* DDWebVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DDWebVC.storyboard; sourceTree = "<group>"; };
 		3717BB8A4E1AE8500CE96B1EB03D3AEB /* Pods-DDWebVC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDWebVC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3945D35E47AAA95EBB9D03BBE14C14D1 /* Pods-DDWebVC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDWebVC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3BF6914AD0C306D81190DE5D817705A3 /* DDWebVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDWebVC.xcconfig; sourceTree = "<group>"; };
@@ -68,7 +77,6 @@
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DC397279DE34539B3008054D81CA7A6D /* DDWebVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DDWebVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC8D4DCD145688BFC4987CCE2FF605D0 /* Pods-DDWebVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDWebVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F184A8F052308571B94A7972DFDD07BB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DDWebVC/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F57535E5B3C0DF8FF43B9157C48839BC /* DDWebVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDWebVC-umbrella.h"; sourceTree = "<group>"; };
 		FC927CEE85D88F53CB4251E888C625DE /* Pods-DDWebVC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDWebVC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF5C9D31CB52912AC82D2E580E42F53A /* Pods-DDWebVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDWebVC_Example-dummy.m"; sourceTree = "<group>"; };
@@ -112,10 +120,32 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		289DE79E21B9156C00BDE303 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				289DF16421B92E3600BDE303 /* DDFlashButton.swift */,
+				289DF16821B92E8D00BDE303 /* DDWebVC.storyboard */,
+				289DF16621B92E8D00BDE303 /* DDWebVC.swift */,
+				289DF16721B92E8D00BDE303 /* DDWebView.swift */,
+			);
+			name = Classes;
+			path = DDWebVC/Classes;
+			sourceTree = "<group>";
+		};
+		289DE7A321B9156C00BDE303 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				289DECAE21B9176A00BDE303 /* dd_img.bundle */,
+			);
+			name = Assets;
+			path = DDWebVC/Assets;
+			sourceTree = "<group>";
+		};
 		39B1B6716F638595E1E8573DB2ADFA71 /* DDWebVC */ = {
 			isa = PBXGroup;
 			children = (
-				F184A8F052308571B94A7972DFDD07BB /* ReplaceMe.swift */,
+				289DE7A321B9156C00BDE303 /* Assets */,
+				289DE79E21B9156C00BDE303 /* Classes */,
 				219D456B427280A0CEC53EA3E08F6DA5 /* Pod */,
 				7F699FF387CFF73769C93B823AB44A15 /* Support Files */,
 			);
@@ -365,6 +395,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289DF16B21B92E8E00BDE303 /* DDWebVC.storyboard in Resources */,
+				289DECAF21B9176A00BDE303 /* dd_img.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +407,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289DF16521B92E3600BDE303 /* DDFlashButton.swift in Sources */,
 				043CC1CEB78F08881D7B33433FD8D757 /* DDWebVC-dummy.m in Sources */,
-				87AA4D762C6C16F0540661A060F9DF89 /* ReplaceMe.swift in Sources */,
+				289DF16921B92E8E00BDE303 /* DDWebVC.swift in Sources */,
+				289DF16A21B92E8E00BDE303 /* DDWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

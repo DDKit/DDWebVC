@@ -2,7 +2,7 @@
   "name": "DDWebVC",
   "version": "0.1.0",
   "summary": "A short description of DDWebVC.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: Add long description of the s.dependency here.",
   "homepage": "https://github.com/DD/DDWebVC",
   "license": {
     "type": "MIT",
@@ -12,11 +12,59 @@
     "DD": "duanchanghe@gmail.com"
   },
   "source": {
-    "git": "https://github.com/DD/DDWebVC.git",
+    "git": "https://github.com/DDKit/DDWebVC.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DDWebVC/Classes/**/*"
+  "source_files": "DDWebVC/Classes/**/*",
+  "resource_bundles": {
+    "DDWebVC": [
+      "DDWebVC/Assets/*.png"
+    ]
+  },
+  "swift_version": "4.0",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "Hue": [
+
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "JPush": [
+
+    ],
+    "ReachabilitySwift": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "DeviceKit": [
+
+    ],
+    "SwiftDate": [
+
+    ],
+    "CryptoSwift": [
+
+    ]
+  }
 }
