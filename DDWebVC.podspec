@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint DDWebVC.podspec' to ensure this is a
+# Be sure to run `s.dependency lib lint DDWebVC.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -18,25 +18,41 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  
+TODO: Add long description of the s.dependency here.
+
                        DESC
 
   s.homepage         = 'https://github.com/DD/DDWebVC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DD' => 'duanchanghe@gmail.com' }
-  s.source           = { :git => 'https://github.com/DD/DDWebVC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DDKit/DDWebVC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DDWebVC/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DDWebVC' => ['DDWebVC/Assets/*.png']
-  # }
-
+  s.resource_bundles = {
+    'DDWebVC' => ['DDWebVC/Assets/*.png']
+  }
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '4.0'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'Alamofire'  #网络请求
+  s.dependency 'SVProgressHUD' #加载动画
+  s.dependency 'Hue' # 颜色
+  s.dependency 'SwiftyJSON' #Json解析
+  s.dependency 'SnapKit' #界面布局
+  s.dependency 'JPush' #极光推送
+  s.dependency 'ReachabilitySwift' #网络监听
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'DeviceKit'
+  s.dependency 'SwiftDate'
+  s.dependency 'CryptoSwift' #加密
+  
+  
 end
