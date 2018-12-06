@@ -11,10 +11,10 @@ import UIKit
 public class DDWebVC: UIViewController {
         
     public func loadSB() -> DDWebVC {
-        let sb: UIStoryboard = UIStoryboard(name: "\(type(of: self))", bundle: nil)
-        let vc = sb.instantiateViewController(withIdentifier: "\(type(of: self))")
-        object_setClass(vc, type(of: self))
-        return vc as! DDWebVC
+//        let sb: UIStoryboard = UIStoryboard(name: "\(type(of: self))", bundle: nil)
+//        let vc = sb.instantiateViewController(withIdentifier: "\(type(of: self))")
+//        object_setClass(vc, type(of: self))
+        return DDWebVC()
     }
 }
 
